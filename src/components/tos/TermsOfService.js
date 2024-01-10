@@ -6,7 +6,9 @@ function TermsOfService() {
       <div className='fade-in mx-2 my-8 max-w-[55rem] bg-white p-6 shadow-panel sm:mx-5 sm:rounded-lg sm:p-8'>
         <div className='mb-8 flex flex-col items-center'>
           <div className='text-4xl font-bold'>Terms of Service</div>
-          LAST UPDATED: Jan 10, 2024
+          <div className='text-sm text-neutral-500'>
+            LAST UPDATED: Jan 10, 2024
+          </div>
         </div>
         <p>
           The following terms and conditions govern all use of Solar Moon
@@ -27,11 +29,13 @@ function TermsOfService() {
           terms.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>PROPER USE </span> Users
-          agree to use Solar Moon Analytics in compliance with all applicable
-          laws, rules and regulations, including any laws regarding the
-          transmission of data exported from your country of residence. Users
-          cannot transmit or distribute any content that is unlawful,
+          <span className='text-lg font-bold text-brand-primary'>
+            PROPER USE 
+          </span>{' '}
+          Users agree to use Solar Moon Analytics in compliance with all
+          applicable laws, rules and regulations, including any laws regarding
+          the transmission of data exported from your country of residence.
+          Users cannot transmit or distribute any content that is unlawful,
           defamatory, fraudulent, contains viruses or is otherwise objectionable
           as determined by Solar Moon Analytics LLC. Users may not use Solar
           Moon Analytics to aid in the violation of the rules and agreements of
@@ -48,7 +52,7 @@ function TermsOfService() {
           providing advance notice.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>
+          <span className='text-lg font-bold text-brand-primary'>
             COPYRIGHT POLICY 
           </span>{' '}
           Solar Moon Analytics LLC respects the intellectual property rights of
@@ -63,8 +67,10 @@ function TermsOfService() {
           uses, including making copies of any content, are strictly prohibited.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>PAYMENT TERMS </span> Some
-          Services are provided on a fee basis. You agree to pay Solar Moon
+          <span className='text-lg font-bold text-brand-primary'>
+            PAYMENT TERMS 
+          </span>{' '}
+          Some Services are provided on a fee basis. You agree to pay Solar Moon
           Analytics LLC the fees for each Service you purchase or use in
           accordance with the pricing and payment terms presented to you for
           such Service. You hereby authorize to charge your credit card on a
@@ -78,7 +84,7 @@ function TermsOfService() {
           such taxes or duties.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>
+          <span className='text-lg font-bold text-brand-primary'>
             MODIFICATION OF FEES AND SERVICES 
           </span>{' '}
           Solar Moon Analytics LLC reserves the right to modify, suspend or
@@ -93,23 +99,28 @@ function TermsOfService() {
           reason at any time.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>REFUNDS </span> To apply
-          for a refund, you need to get in touch with us and request the refund
-          within the first 15 days of your original sign up and provide us with
-          a reason validating your request so we could properly review and
-          document your case. Refunds under any other circumstances will not be
-          available.
+          <span className='text-lg font-bold text-brand-primary'>
+            REFUNDS 
+          </span>{' '}
+          To apply for a refund, you need to get in touch with us and request
+          the refund within the first 15 days of your original sign up and
+          provide us with a reason validating your request so we could properly
+          review and document your case. Refunds under any other circumstances
+          will not be available.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>CHANGES </span> Solar Moon
-          Analytics LLC reserves the right, at its sole discretion, to modify or
-          replace any part of this Agreement. It is your responsibility to check
-          this Agreement periodically for changes. Your continued use of or
-          access to Solar Moon Analytics following the posting of any changes to
-          this Agreement constitutes acceptance of those changes.
+          <span className='text-lg font-bold text-brand-primary'>
+            CHANGES 
+          </span>{' '}
+          Solar Moon Analytics LLC reserves the right, at its sole discretion,
+          to modify or replace any part of this Agreement. It is your
+          responsibility to check this Agreement periodically for changes. Your
+          continued use of or access to Solar Moon Analytics following the
+          posting of any changes to this Agreement constitutes acceptance of
+          those changes.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>
+          <span className='text-lg font-bold text-brand-primary'>
             GENERAL REPRESENTATION AND WARRANTY 
           </span>
           You represent and warrant that (i) your use of Solar Moon Analytics
@@ -124,7 +135,9 @@ function TermsOfService() {
           the intellectual property rights of any third party.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>INDEMNIFICATION </span>
+          <span className='text-lg font-bold text-brand-primary'>
+            INDEMNIFICATION 
+          </span>
           Users of Solar Moon Analytics agree to hold harmless and indemnify
           Solar Moon Analytics LLC and its affiliates, agents, officers and
           employees from and against any third party claim coming from or

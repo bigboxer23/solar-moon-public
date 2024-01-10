@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { FaXmark } from 'react-icons/fa6';
 import { LuSun } from 'react-icons/lu';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import { useOnClickOutside } from 'usehooks-ts';
 
 import logo from '../../assets/logo.svg';

@@ -6,7 +6,9 @@ function PrivacyPolicy() {
       <div className='fade-in mx-2 my-8 max-w-[55rem] bg-white p-6 shadow-panel sm:mx-5 sm:rounded-lg sm:p-8'>
         <div className='mb-8 flex flex-col items-center'>
           <div className='text-4xl font-bold'>Privacy Policy</div>
-          LAST UPDATED: Jan 10, 2024
+          <div className='text-sm text-neutral-500'>
+            LAST UPDATED: Jan 10, 2024
+          </div>
         </div>
         <p>
           This Privacy Policy governs the manner in which Solar Moon Analytics
@@ -16,7 +18,7 @@ function PrivacyPolicy() {
           services offered by Solar Moon Analytics LLC.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>
+          <span className='text-lg font-bold text-brand-primary'>
             INFORMATION WE COLLECT 
           </span>{' '}
           We collect information primarily to provide better services to all of
@@ -51,7 +53,7 @@ function PrivacyPolicy() {
           your browser’s instructions on changing your cookie settings.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>
+          <span className='text-lg font-bold text-brand-primary'>
             HOW WE USE COLLECTED INFORMATION 
           </span>{' '}
           Solar Moon Analytics LLC collects and uses Users&apos; personal
@@ -74,7 +76,7 @@ function PrivacyPolicy() {
           each email.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>
+          <span className='text-lg font-bold text-brand-primary'>
             HOW WE PROTECT YOUR INFORMATION 
           </span>{' '}
           We adopt appropriate data collection, storage and processing practices
@@ -86,7 +88,7 @@ function PrivacyPolicy() {
           protected with digital signatures.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>
+          <span className='text-lg font-bold text-brand-primary'>
             SHARING YOUR PERSONAL INFORMATION 
           </span>{' '}
           We do not sell, trade, or rent Users&apos; personal identification
@@ -96,7 +98,7 @@ function PrivacyPolicy() {
           affiliates and advertisers for the purposes outlined above.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>
+          <span className='text-lg font-bold text-brand-primary'>
             INTENDED AUDIENCE OF WEBSITES 
           </span>{' '}
           Our website is not directed to children under the age of 14. As a
@@ -105,7 +107,7 @@ function PrivacyPolicy() {
           you should not visit or use our website.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>
+          <span className='text-lg font-bold text-brand-primary'>
             CHANGES TO THIS PRIVACY POLICY 
           </span>
           Solar Moon Analytics LLC has the discretion to update this privacy
@@ -117,7 +119,7 @@ function PrivacyPolicy() {
           become aware of modifications.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>
+          <span className='text-lg font-bold text-brand-primary'>
             YOUR ACCEPTANCE OF THESE TERMS 
           </span>
           By using this Site, you signify your acceptance of this policy. If you
@@ -126,7 +128,9 @@ function PrivacyPolicy() {
           policy will be deemed your acceptance of those changes.
           <br />
           <br />
-          <span className='text-lg text-neutral-500'>CONTACTING US </span>
+          <span className='text-lg font-bold text-brand-primary'>
+            CONTACTING US 
+          </span>
           If you have any questions about this Privacy Policy, the practices of
           this site, or your dealings with this site, please contact us at:
           info@solarmoonanalyics.com
