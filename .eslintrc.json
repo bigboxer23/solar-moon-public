@@ -18,8 +18,8 @@
   "ignorePatterns": ["**/aws-exports.js"],
   "rules": {
     "sort-vars": "error",
-	"no-irregular-whitespace": "off",
-	"react/jsx-sort-props": ["error"],
+    "no-irregular-whitespace": "off",
+    "react/jsx-sort-props": ["error"],
     "react/prop-types": 0,
     "prettier/prettier": "error",
     "react/jsx-curly-brace-presence": [
