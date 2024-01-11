@@ -11,7 +11,7 @@ import FeatureCard from './FeatureCard';
 
 export default function Features() {
   return (
-    <div className='m-12'>
+    <div className='m-12 max-w-[75rem]'>
       <div className='flex items-center text-4xl font-bold'>
         <div className='me-4 w-24'>
           <img alt='brand' className='object-fill' src={logo} />
@@ -40,7 +40,7 @@ export default function Features() {
           description='Explore live data from all your devices in a tabular format. This real-time view allows you to monitor the current status and performance of your devices. Filter down by time period, site or individual devices.'
           imgPath={dataView}
           isBlog={false}
-          title='Live Data View'
+          title='Live Data Browsing'
         />
 
         <FeatureCard
