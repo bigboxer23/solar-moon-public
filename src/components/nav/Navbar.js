@@ -43,7 +43,7 @@ export default function Navbar() {
 
     switch (pathArray[1]) {
       case '':
-        return 'Overview';
+        return 'Home';
       case 'docs':
         return 'Docs';
       case 'pricing':
@@ -68,6 +68,9 @@ export default function Navbar() {
             className='ml-6 h-10 w-10 sm:ml-8 sm:h-12 sm:w-12'
             src={logo}
           />
+          <span className='ms-2 text-base font-bold sm:text-xl'>
+            Solar Moon Analytics{' '}
+          </span>
         </NavLink>
         <div className='flex items-center justify-center sm:hidden'>
           <span className='text-xl font-bold text-black'>
@@ -81,7 +84,7 @@ export default function Navbar() {
             }
             to='/'
           >
-            Overview
+            Home
           </NavLink>
           <LuSun className={separatorStyle} />
           <NavLink
@@ -144,7 +147,7 @@ export default function Navbar() {
             }
             to='/'
           >
-            Overview
+            Home
           </NavLink>
           <LuSun className={separatorStyle} />
           <NavLink

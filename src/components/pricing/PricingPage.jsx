@@ -11,7 +11,7 @@ export default function PricingPage() {
   };
 
   return (
-    <div className='pricing-page mx-2 flex flex-col items-center bg-brand-primary-light sm:mx-5'>
+    <main className='pricing-page mx-2 flex flex-col items-center bg-brand-primary-light sm:mx-5'>
       <div className='my-8 flex text-4xl font-bold'>
         Choose a <span className='text-brand-primary'>Plan</span>
       </div>
@@ -56,6 +56,6 @@ export default function PricingPage() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
