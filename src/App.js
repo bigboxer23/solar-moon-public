@@ -1,4 +1,3 @@
-import { IntlProvider } from 'react-intl';
 import {
   BrowserRouter as Router,
   Navigate,
@@ -19,23 +18,21 @@ function App() {
   document.getElementsByTagName('body')[0].style.backgroundColor = '#eef2f9';
 
   return (
-    <IntlProvider locale={navigator.language}>
-      <Router>
-        <div className='App' id='scroll'>
-          <Navbar2 />
-          <Routes>
-            <Route element={<Home />} path='/' />
-            <Route element={<PricingPage />} path='/pricing' />
-            <Route element={<Docs />} path='/docs' />
-            <Route element={<About />} path='/about' />
-            <Route element={<TermsOfService />} path='/tos' />
-            <Route element={<PrivacyPolicy />} path='/privacy' />
-            <Route element={<Navigate to='/' />} path='*' />
-          </Routes>
-          <Footer />
-        </div>
-      </Router>
-    </IntlProvider>
+    <Router>
+      <div className='App' id='scroll'>
+        <Navbar2 />
+        <Routes>
+          <Route element={<Home />} path='/' />
+          <Route element={<PricingPage />} path='/pricing' />
+          <Route element={<Docs />} path='/docs' />
+          <Route element={<About />} path='/about' />
+          <Route element={<TermsOfService />} path='/tos' />
+          <Route element={<PrivacyPolicy />} path='/privacy' />
+          <Route element={<Navigate to='/' />} path='*' />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
