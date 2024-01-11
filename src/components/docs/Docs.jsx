@@ -94,16 +94,20 @@ export default function Docs() {
                       </div>
                     </li>
                     <li>
-                      <div className='flex items-center'>
-                        Upload URL should be updated to point to &nbsp;
-                        <div className='me-4 font-bold text-brand-primary'>
-                          http://solarmoonanalytics.com/upload
+                      Upload URL should be updated to point to &nbsp;
+                      <span>
+                        <div className='flex flex-wrap items-center font-bold text-brand-primary'>
+                          <span className='me-2'>
+                            http://solarmoonanalytics.com/upload
+                          </span>
+                          <CopyButton
+                            dataSrc={() =>
+                              'http://solarmoonanalytics.com/upload'
+                            }
+                            title='Copy Upload URL'
+                          />
                         </div>
-                        <CopyButton
-                          dataSrc={() => 'http://solarmoonanalytics.com/upload'}
-                          title='Copy Upload URL'
-                        />
-                      </div>
+                      </span>
                     </li>
                     <li>
                       Password should be updated with your Access Key retrieved
@@ -125,7 +129,7 @@ export default function Docs() {
                   </ul>
                   <img
                     alt='brand'
-                    className='img-fluid pe-5 ps-3 pt-4'
+                    className='object-fill pe-5 ps-3 pt-4'
                     src={uploadChannel}
                   />
                 </div>
