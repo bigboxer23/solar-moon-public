@@ -6,9 +6,9 @@ import Type from './Type';
 
 export default function Home() {
   return (
-    <main className='home flex flex-col items-center bg-brand-primary-light p-12'>
+    <main className='home flex w-full flex-col items-center bg-brand-primary-light p-2 sm:p-12'>
       <div className='flex max-w-[75rem]'>
-        <div className='flex w-9/12 flex-col p-12'>
+        <div className='flex w-full min-w-80 flex-col p-4 sm:w-9/12 sm:p-12'>
           <div className='mb-4 text-4xl font-bold'>
             Welcome to Solar Moon Analytics!
           </div>
@@ -19,21 +19,13 @@ export default function Home() {
           </div>
           <Type />
         </div>
-        <div>
+        <div className='hidden w-80 sm:flex'>
           <Tilt>
-            <img
-              alt='home pic'
-              className='object-fill'
-              src={homeLogo}
-              style={{ maxHeight: '500px', height: '500px' }}
-            />
+            <img alt='home pic' className='object-fill' src={homeLogo} />
           </Tilt>
         </div>
       </div>
-      <div>
-        {' '}
-        <Features />
-      </div>
+      <Features />
     </main>
   );
 }
