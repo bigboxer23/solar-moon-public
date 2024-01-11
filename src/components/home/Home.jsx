@@ -7,7 +7,7 @@ import Type from './Type';
 export default function Home() {
   return (
     <main className='home flex flex-col items-center bg-brand-primary-light p-12'>
-      <div className='flex '>
+      <div className='flex max-w-[75rem]'>
         <div className='flex w-9/12 flex-col p-12'>
           <div className='mb-4 text-4xl font-bold'>
             Welcome to Solar Moon Analytics!
