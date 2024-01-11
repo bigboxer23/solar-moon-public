@@ -11,15 +11,18 @@ import FeatureCard from './FeatureCard';
 
 export default function Features() {
   return (
-    <div className='m-12 max-w-[75rem]'>
-      <div className='flex items-center text-4xl font-bold'>
-        <div className='me-4 w-24'>
+    <div className='max-w-[75rem] p-4 sm:p-12'>
+      <div className='flex flex-wrap items-center text-xl font-bold sm:flex-nowrap sm:text-4xl'>
+        <div className='me-4 w-8 sm:w-24'>
           <img alt='brand' className='object-fill' src={logo} />
         </div>
-        <span className='text-brand-primary'> Solar Moon Analytics </span>{' '}
+        <span className='whitespace-nowrap text-brand-primary'>
+          {' '}
+          Solar Moon Analytics 
+        </span>{' '}
         Features
       </div>
-      <div className='my-12 flex flex-wrap'>
+      <div className='my-8 flex flex-wrap sm:my-12'>
         <FeatureCard
           description='Solar Moon Analytics provides the capability to manage a multitude of devices seamlessly.
               Devices can be grouped together into virtual sites, allowing them to be organized logically and efficiently.
