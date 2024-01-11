@@ -9,7 +9,7 @@ export default function Docs() {
   return (
     <main className='docs flex flex-col items-center bg-brand-primary-light'>
       <div className='fade-in mx-2 my-8 max-w-[55rem] bg-white p-6 shadow-panel sm:mx-5 sm:rounded-lg sm:p-8'>
-        <div className='mb-8 flex  text-4xl font-bold'>
+        <div className='mb-8 flex text-4xl font-bold'>
           Connecting your first {' '}
           <span className='text-brand-primary'>device</span>
         </div>
