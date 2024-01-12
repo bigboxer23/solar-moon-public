@@ -16,13 +16,10 @@ export default function Features() {
         <div className='me-4 w-8 sm:w-24'>
           <img alt='brand' className='object-fill' src={logo} />
         </div>
-        <span className='whitespace-nowrap text-brand-primary'>
-          {' '}
-          Solar Moon Analytics 
-        </span>{' '}
-        Features
+        <span className='whitespace-nowrap'>Solar Moon Analytics</span> 
+        <span className='whitespace-nowrap text-brand-primary'>Features</span>
       </div>
-      <div className='my-8 flex flex-wrap sm:my-12'>
+      <div className='my-8 flex flex-wrap justify-around sm:my-12'>
         <FeatureCard
           description='Solar Moon Analytics provides the capability to manage a multitude of devices seamlessly.
               Devices can be grouped together into virtual sites, allowing them to be organized logically and efficiently.
@@ -33,7 +30,7 @@ export default function Features() {
         />
 
         <FeatureCard
-          description='Dashboards can be tailored to meet your specific needs, whether you want to monitor individual devices, or aggregated sites. Virtual devices provide collected views of specific clusters or sites, so larger trends can be surfaced.'
+          description='Dashboards can be tailored to meet your specific needs, whether you want to monitor individual devices, or see aggregated site information. Virtual devices provide collected views of specific clusters or sites, so larger trends can be surfaced.'
           imgPath={configurable}
           isBlog={false}
           title='Flexibility'
@@ -47,14 +44,14 @@ export default function Features() {
         />
 
         <FeatureCard
-          description='All collected data is available for export. Anything shown in the live data view can be exported into csv format. Reports can be useful for external analysis, compliance reporting, and decision-making.'
+          description='All collected data is available for export in csv format. Searching applied in the live data view can be used to filter specifically what is exported. Reports are useful for external analysis, compliance reporting, and decision-making.'
           imgPath={exportData}
           isBlog={false}
           title='Historic Data Export'
         />
 
         <FeatureCard
-          description="Receive timely alerts via email when our system detects anomalies or irregularities in device behavior. Customize alert thresholds to match your specific requirements. This ensures that you're only notified when deviations from normal operation warrant attention."
+          description='Receive timely alerts via email when our system detects anomalies or irregularities in device behavior. The platform ensures you are only notified when deviations from normal operation warrant attention.'
           imgPath={alerting}
           isBlog={false}
           title='Alerting'

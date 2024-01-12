@@ -10,7 +10,10 @@ export default function Home() {
       <div className='flex max-w-[75rem]'>
         <div className='flex w-full min-w-80 flex-col p-4 sm:w-9/12 sm:p-12'>
           <div className='mb-4 text-4xl font-bold'>
-            Welcome to Solar Moon Analytics!
+            Welcome to{' '}
+            <span className='whitespace-nowrap text-brand-primary'>
+              Solar Moon Analytics!
+            </span>
           </div>
           <div className='text-2xl font-bold'>
             Our platform empowers businesses to seamlessly oversee their solar
