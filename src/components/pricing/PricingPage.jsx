@@ -40,7 +40,7 @@ export default function PricingPage() {
         </div>
         <div className='fade-in my-8 w-[25rem] max-w-full rounded-lg bg-white p-6 shadow-panel sm:w-[55rem] sm:p-8'>
           <div>
-            <div className='align-self-start mb-4 text-lg font-bold'>
+            <div className='align-self-start mb-4 text-lg font-extrabold text-brand-primary'>
               Plans include
             </div>
             <div className='ms-4 text-gray-500'>

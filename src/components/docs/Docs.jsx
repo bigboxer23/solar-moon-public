@@ -10,8 +10,7 @@ export default function Docs() {
     <main className='docs flex flex-col items-center bg-brand-primary-light'>
       <div className='fade-in mx-2 my-8 max-w-[55rem] bg-white p-6 shadow-panel sm:mx-5 sm:rounded-lg sm:p-8'>
         <div className='mb-8 flex text-4xl font-bold'>
-          Connecting your first {' '}
-          <span className='text-brand-primary'>device</span>
+          Connecting a  <span className='text-brand-primary'>device</span>
         </div>
         <div>
           <div>
@@ -55,7 +54,7 @@ export default function Docs() {
                   Navigate to the{' '}
                   <Link
                     className='text-brand-primary underline'
-                    to='https://app.solarmoonanalytics.com/userManagement'
+                    to='https://app.solarmoonanalytics.com/profile'
                   >
                     user profile section
                   </Link>
@@ -156,7 +155,7 @@ export default function Docs() {
                   Navigate to the&nbsp;
                   <Link
                     className='text-brand-primary underline'
-                    to='https://app.solarmoonanalytics.com/sites'
+                    to='https://app.solarmoonanalytics.com/siteManagement'
                   >
                     site management page
                   </Link>{' '}
