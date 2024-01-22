@@ -25,6 +25,7 @@ function App() {
           <Route element={<Home />} path='/' />
           <Route element={<PricingPage />} path='/pricing' />
           <Route element={<Docs />} path='/docs' />
+          <Route element={<Docs />} path='/docs/:docName' />
           <Route element={<About />} path='/about' />
           <Route element={<TermsOfService />} path='/tos' />
           <Route element={<PrivacyPolicy />} path='/privacy' />
