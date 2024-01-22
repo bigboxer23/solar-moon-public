@@ -1,6 +1,6 @@
 import React from 'react';
 import { MdOutlineEmail } from 'react-icons/md';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -10,7 +10,9 @@ export default function Footer() {
         <div className='flex flex-col justify-end pb-4'>
           <div className='flex items-center'>
             <MdOutlineEmail className='button-icon' />
-            info@solarmoonanalytics.com
+            <Link to='mailto:info@solarmoonanalytics.com'>
+              info@solarmoonanalytics.com
+            </Link>
           </div>
           <div>© {year} Solar Moon Analytics, LLC</div>
         </div>
