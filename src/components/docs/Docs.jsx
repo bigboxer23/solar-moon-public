@@ -11,16 +11,19 @@ export default function Docs() {
   return (
     <main className='docs flex w-full flex-col items-center bg-brand-primary-light p-4'>
       <div className='fade-in mx-2 my-8 flex w-[75rem] max-w-full bg-white p-6 shadow-panel sm:mx-5 sm:rounded-lg sm:p-8'>
-        <div className='toc flex min-w-40 flex-col'>
+        <div className='toc hidden min-w-40 flex-col sm:flex'>
           <div className='mb-4 flex text-lg font-bold'>Topics</div>
           <NavLink
-            className='group flex items-center rounded-lg p-0 text-sm transition-all duration-150 hover:bg-neutral-100 sm:p-4'
+            className={
+              (docName === undefined ? 'active ' : '') +
+              'group flex items-center rounded-md text-sm transition-all duration-150 hover:bg-neutral-100 sm:p-2'
+            }
             to='/docs/connectingDevice'
           >
             Connecting a device
           </NavLink>
           <NavLink
-            className='group flex items-center rounded-lg p-0 text-sm transition-all duration-150 hover:bg-neutral-100 sm:p-4'
+            className='group flex items-center rounded-md text-sm transition-all duration-150 hover:bg-neutral-100 sm:p-2'
             to='/docs/sortingDevices'
           >
             Sorting devices
