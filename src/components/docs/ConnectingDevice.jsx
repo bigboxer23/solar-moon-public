@@ -147,7 +147,7 @@ export default function ConnectingDevice() {
               Navigate to the&nbsp;
               <Link
                 className='text-brand-primary underline'
-                to='https://app.solarmoonanalytics.com/siteManagement'
+                to='https://app.solarmoonanalytics.com/manage'
               >
                 site management page
               </Link>{' '}
