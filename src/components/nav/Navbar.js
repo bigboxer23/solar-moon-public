@@ -3,13 +3,14 @@ import { useEffect, useRef, useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { FaXmark } from 'react-icons/fa6';
 import { LuSun } from 'react-icons/lu';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation, useMatch } from 'react-router-dom';
 import { useOnClickOutside } from 'usehooks-ts';
 
 import logo from '../../assets/logo.svg';
 
 // TODO: break this up, it's a mess (break out the slider menu at least)
 export default function Navbar() {
+  const match = useMatch('/docs/*') !== null;
   const separatorStyle =
     'text-text-secondary text-lg text-decoration-none font-bold hidden lg:block';
   const linkStyle = 'text-black font-bold text-lg text-decoration-none';
@@ -158,6 +159,28 @@ export default function Navbar() {
           >
             Docs
           </NavLink>
+          {match && (
+            <NavLink
+              className={({ isActive }) =>
+                'ms-4 text-sm ' +
+                (isActive ? slideMenuActiveLinkStyle : slideMenuLinkStyle)
+              }
+              to='/docs/connectingDevice'
+            >
+              Connecting a device
+            </NavLink>
+          )}
+          {match && (
+            <NavLink
+              className={({ isActive }) =>
+                'ms-4 text-sm ' +
+                (isActive ? slideMenuActiveLinkStyle : slideMenuLinkStyle)
+              }
+              to='/docs/sortingDevices'
+            >
+              Sorting devices
+            </NavLink>
+          )}
           <LuSun className={separatorStyle} />
           <NavLink
             className={({ isActive }) =>
