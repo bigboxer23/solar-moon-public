@@ -95,7 +95,7 @@ export default function DeviceData() {
               documentation for{' '}
               <Link
                 className='text-brand-primary underline'
-                to='https://app.solarmoonanalytics.com/mapping'
+                to='https://solarmoonanalytics.com/docs/mapping'
               >
                 mapping device data
               </Link>
