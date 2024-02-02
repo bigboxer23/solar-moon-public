@@ -7,7 +7,7 @@ import Step from './Step';
 export default function ConnectingDevice() {
   return (
     <div>
-      <div className='mb-8 flex text-4xl font-bold'>
+      <div className='mb-8 flex text-2xl font-bold sm:text-4xl'>
         Connecting a <span className='text-brand-primary'>device</span>
       </div>
       <div>

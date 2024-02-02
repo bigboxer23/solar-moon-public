@@ -9,7 +9,7 @@ import Step from './Step';
 export default function OrganizingDevices() {
   return (
     <div>
-      <div className='mb-8 flex text-4xl font-bold'>
+      <div className='mb-8 flex text-2xl font-bold sm:text-4xl'>
         Organizing devices into a 
         <span className='text-brand-primary'>site</span>
       </div>

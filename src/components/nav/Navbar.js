@@ -178,7 +178,29 @@ export default function Navbar() {
               }
               to='/docs/sortingDevices'
             >
-              Sorting devices
+              Organizing devices
+            </NavLink>
+          )}
+          {match && (
+            <NavLink
+              className={({ isActive }) =>
+                'ms-4 text-sm ' +
+                (isActive ? slideMenuActiveLinkStyle : slideMenuLinkStyle)
+              }
+              to='/docs/deviceData'
+            >
+              Understanding device data
+            </NavLink>
+          )}
+          {match && (
+            <NavLink
+              className={({ isActive }) =>
+                'ms-4 text-sm ' +
+                (isActive ? slideMenuActiveLinkStyle : slideMenuLinkStyle)
+              }
+              to='/docs/mapping'
+            >
+              Mapping device data
             </NavLink>
           )}
           <LuSun className={separatorStyle} />
