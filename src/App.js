@@ -19,7 +19,7 @@ function App() {
 
   return (
     <Router>
-      <div className='App' id='scroll'>
+      <div className='App dark:bg-gray-950' id='scroll'>
         <Navbar2 />
         <Routes>
           <Route element={<Home />} path='/' />

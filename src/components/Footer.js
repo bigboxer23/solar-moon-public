@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
-    <div className='Footer flex justify-center bg-brand-primary-light px-4 pb-4'>
+    <div className='Footer flex justify-center bg-brand-primary-light px-4 pb-4 dark:bg-gray-950 dark:text-gray-100'>
       <div className='flex w-[55rem] flex-col sm:flex-row'>
         <div className='flex flex-col justify-end pb-4'>
           <div className='flex items-center'>

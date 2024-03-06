@@ -12,15 +12,16 @@ import logo from '../../assets/logo.svg';
 export default function Navbar() {
   const match = useMatch('/docs/*') !== null;
   const separatorStyle =
-    'text-text-secondary text-lg text-decoration-none font-bold hidden lg:block';
-  const linkStyle = 'text-black font-bold text-lg text-decoration-none';
+    'text-text-secondary dark:text-brand-secondary text-lg text-decoration-none font-bold hidden lg:block';
+  const linkStyle =
+    'text-black dark:text-gray-100 font-bold text-lg text-decoration-none';
   const activeLinkStyle =
-    'text-black font-bold text-lg border-b-2 border-text-primary text-decoration-none border-black';
+    'text-black dark:text-gray-100 font-bold text-lg border-b-2 border-text-primary text-decoration-none border-black dark:border-gray-100';
 
   const slideMenuLinkStyle =
     'text-start text-black font-bold text-2xl text-decoration-none w-fit';
   const slideMenuActiveLinkStyle =
-    'text-black font-bold text-2xl border-b-2 border-text-primary text-decoration-none border-black w-fit';
+    'text-black dark:text-gray-100 font-bold text-2xl border-b-2 border-text-primary text-decoration-none border-black w-fit';
 
   const [slideMenuOpen, setSlideMenuOpen] = useState(false);
 
@@ -62,7 +63,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className='Navbar flex h-[4.5rem] w-full items-center justify-between border-b border-text-secondary bg-brand-primary-light sm:h-[6.25rem]'>
+      <div className='Navbar flex h-[4.5rem] w-full items-center justify-between border-b border-text-secondary bg-brand-primary-light sm:h-[6.25rem] dark:border-b-0 dark:bg-gray-950 dark:text-gray-100'>
         <NavLink className='flex items-center justify-center' to='/'>
           <img
             alt='brand'

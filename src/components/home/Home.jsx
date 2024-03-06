@@ -6,7 +6,7 @@ import Type from './Type';
 
 export default function Home() {
   return (
-    <main className='home flex w-full flex-col items-center bg-brand-primary-light p-2 sm:p-12'>
+    <main className='home flex w-full flex-col items-center bg-brand-primary-light p-2 sm:p-12 dark:bg-gray-950 dark:text-gray-100'>
       <div className='flex max-w-[75rem]'>
         <div className='flex w-full min-w-80 flex-col p-4 sm:w-9/12 sm:p-12'>
           <div className='mb-4 text-4xl font-bold'>

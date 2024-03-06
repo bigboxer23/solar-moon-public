@@ -13,7 +13,7 @@ function PriceTile({
   checkoutClicked,
 }) {
   return (
-    <div className='price fade-in grow-1 m-3 mx-2 my-8 flex min-h-[17rem] w-full max-w-[17rem] flex-col rounded-lg bg-white p-8 shadow-panel sm:mx-5'>
+    <div className='price fade-in grow-1 m-3 mx-2 my-8 flex min-h-[17rem] w-full max-w-[17rem] flex-col rounded-lg bg-white p-8 shadow-panel sm:mx-5 dark:bg-gray-800'>
       <div className='flex grow flex-col'>
         <div className='mb-3 flex items-center'>
           <div className='text-xl font-bold'>{label}</div>
