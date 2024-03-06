@@ -11,7 +11,7 @@ export default function PricingPage() {
   };
 
   return (
-    <main className='pricing-page mx-2 flex flex-col items-center bg-brand-primary-light sm:mx-5'>
+    <main className='pricing-page mx-2 flex flex-col items-center bg-brand-primary-light sm:mx-5 dark:bg-gray-950 dark:text-neutral-100'>
       <div className='my-8 flex text-4xl font-bold'>
         Choose a <span className='text-brand-primary'>Plan</span>
       </div>
@@ -38,13 +38,13 @@ export default function PricingPage() {
             setCount={setYearCount}
           />
         </div>
-        <div className='fade-in my-8 w-[25rem] max-w-full rounded-lg bg-white p-6 shadow-panel sm:w-[55rem] sm:p-8'>
+        <div className='fade-in my-8 w-[25rem] max-w-full rounded-lg bg-white p-6 shadow-panel sm:w-[55rem] sm:p-8 dark:bg-gray-800'>
           <div>
             <div className='align-self-start mb-4 text-lg font-extrabold text-brand-primary'>
               Plans include
             </div>
             <div className='ms-4 text-gray-500'>
-              <ul className='list-disc'>
+              <ul className='list-disc dark:text-neutral-300'>
                 <li>Up to 20 devices per seat</li>
                 <li>Site level data via virtual devices</li>
                 <li>Live data reporting</li>

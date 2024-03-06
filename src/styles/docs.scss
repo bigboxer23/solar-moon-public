@@ -1,3 +1,9 @@
 .docs .active {
   background-color: theme('backgroundColor.neutral.200');
 }
+
+@media (prefers-color-scheme: dark) {
+  .docs .active {
+    background-color: theme('backgroundColor.gray.700');
+  }
+}

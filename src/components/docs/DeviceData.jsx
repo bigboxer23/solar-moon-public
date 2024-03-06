@@ -12,7 +12,7 @@ export default function DeviceData() {
         <Step
           content={
             <div>
-              <div className='align-self-start mb-4 text-black '>
+              <div className='align-self-start mb-4 text-black dark:text-neutral-100'>
                 Solar Moon collects 5 specific fields from each device to
                 display data and manage alerts. The 5 primary fields collected
                 are:
@@ -45,7 +45,7 @@ export default function DeviceData() {
         <Step
           content={
             <div>
-              <div className='align-self-start mb-4 text-black '>
+              <div className='align-self-start mb-4 text-black dark:text-neutral-100'>
                 By default Solar Moon will look for data from the devices with
                 the above names. However, there are a number of additional
                 accepted names for these fields:

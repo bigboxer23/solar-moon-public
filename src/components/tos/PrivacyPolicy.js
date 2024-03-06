@@ -2,7 +2,7 @@ import React from 'react';
 
 function PrivacyPolicy() {
   return (
-    <main className='privacy flex flex-col items-center bg-brand-primary-light'>
+    <main className='privacy flex flex-col items-center bg-brand-primary-light dark:bg-gray-950'>
       <div className='fade-in mx-2 my-8 max-w-[55rem] bg-white p-6 shadow-panel sm:mx-5 sm:rounded-lg sm:p-8'>
         <div className='mb-8 flex flex-col items-center'>
           <div className='text-4xl font-bold'>Privacy Policy</div>
