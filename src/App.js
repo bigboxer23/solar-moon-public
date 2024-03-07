@@ -15,8 +15,6 @@ import PrivacyPolicy from './components/tos/PrivacyPolicy';
 import TermsOfService from './components/tos/TermsOfService';
 
 function App() {
-  document.getElementsByTagName('body')[0].style.backgroundColor = '#eef2f9';
-
   return (
     <Router>
       <div className='App dark:bg-gray-950' id='scroll'>

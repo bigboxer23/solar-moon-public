@@ -17,21 +17,22 @@ export default function OrganizingDevices() {
         <Step
           content={
             <div>
-              By default, devices are placed into a{' '}
+              Devices can be organized into a site, which allows collected data
+              for all devices to be combined into an aggregated view. Placing
+              devices together provides a convenient way to see all data from a
+              particular location within a single view. It also allows for more
+              direct comparison of devices which should have similar output (e.g
+              co-located). Sites also offer the ability to define a physical
+              location where they exist so weather information such as
+              temperature, UV index, and current conditions can be collected and
+              stored with device data. By default, devices are placed into a{' '}
               <span
                 className='font-bold
           text-brand-primary'
               >
                 No Site
               </span>{' '}
-              group. Devices can be organized into a site, which allows
-              collected data for all devices to be combined into an aggregated
-              view. Placing devices together provides a convenient way to see
-              all data from a particular location within a single view. It also
-              allows for more direct comparison of devices which should have
-              similar output (e.g co-located). Sites also offer the ability to
-              define a physical location where they exist so weather information
-              can be collected and stored with device data.
+              group.
             </div>
           }
           title='What is the purpose of a site?'
