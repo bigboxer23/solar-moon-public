@@ -4,6 +4,7 @@ body {
   font-family: 'Raleway', serif !important;
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 @tailwind base;

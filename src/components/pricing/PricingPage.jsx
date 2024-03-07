@@ -11,7 +11,7 @@ export default function PricingPage() {
   };
 
   return (
-    <main className='pricing-page mx-2 flex flex-col items-center bg-brand-primary-light sm:mx-5 dark:bg-gray-950 dark:text-neutral-100'>
+    <main className='pricing-page mx-2 flex min-h-[83vh] flex-col items-center bg-brand-primary-light sm:mx-5 dark:bg-gray-950 dark:text-neutral-100'>
       <div className='my-8 flex text-4xl font-bold'>
         Choose a <span className='text-brand-primary'>Plan</span>
       </div>
