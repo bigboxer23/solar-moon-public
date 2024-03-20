@@ -166,9 +166,31 @@ export default function Navbar() {
                 'ms-4 text-sm ' +
                 (isActive ? slideMenuActiveLinkStyle : slideMenuLinkStyle)
               }
+              to='/docs/gettingStarted'
+            >
+              Getting Started
+            </NavLink>
+          )}
+          {match && (
+            <NavLink
+              className={({ isActive }) =>
+                'ms-4 text-sm ' +
+                (isActive ? slideMenuActiveLinkStyle : slideMenuLinkStyle)
+              }
               to='/docs/connectingDevice'
             >
-              Connecting a device
+              Connecting an Obvius device
+            </NavLink>
+          )}
+          {match && (
+            <NavLink
+              className={({ isActive }) =>
+                'ms-4 text-sm ' +
+                (isActive ? slideMenuActiveLinkStyle : slideMenuLinkStyle)
+              }
+              to='/docs/connectingSMADevices'
+            >
+              Connecting SMA devices
             </NavLink>
           )}
           {match && (
