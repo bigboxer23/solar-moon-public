@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 
 import About from './components/about/About';
+import AccountVerified from './components/account/AccountVerified';
 import Docs from './components/docs/Docs';
 import Footer from './components/Footer';
 import Home from './components/home/Home';
@@ -27,6 +28,7 @@ function App() {
           <Route element={<About />} path='/about' />
           <Route element={<TermsOfService />} path='/tos' />
           <Route element={<PrivacyPolicy />} path='/privacy' />
+          <Route element={<AccountVerified />} path='/verified' />
           <Route element={<Navigate to='/' />} path='*' />
         </Routes>
         <Footer />
