@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 
 import About from './components/about/About';
+import AccountActivationError from './components/account/AccountActivationError';
 import AccountVerified from './components/account/AccountVerified';
 import Docs from './components/docs/Docs';
 import Footer from './components/Footer';
@@ -29,6 +30,10 @@ function App() {
           <Route element={<TermsOfService />} path='/tos' />
           <Route element={<PrivacyPolicy />} path='/privacy' />
           <Route element={<AccountVerified />} path='/verified' />
+          <Route
+            element={<AccountActivationError />}
+            path='/accountActivationError'
+          />
           <Route element={<Navigate to='/' />} path='*' />
         </Routes>
         <Footer />
