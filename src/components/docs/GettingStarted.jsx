@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import uploadChannel from '../../assets/upload-channel.jpg';
-import CopyButton from '../common/CopyButton';
+import AccessKeyStep from './AccessKeyStep';
 import Step from './Step';
 
 export default function GettingStarted() {
@@ -45,19 +44,7 @@ export default function GettingStarted() {
           title='Sign up for a plan'
         />
         <Step
-          content={
-            <div>
-              Navigate to the{' '}
-              <Link
-                className='text-brand-primary underline'
-                to='https://app.solarmoonanalytics.com/profile'
-              >
-                user profile section
-              </Link>
-              &nbsp; and locate the access key underneath the API Information
-              section. Copy this for a future step.
-            </div>
-          }
+          content={<AccessKeyStep />}
           number={4}
           title='Collect your access key'
         />
