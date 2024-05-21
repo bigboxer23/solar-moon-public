@@ -4,6 +4,7 @@ import editingFTP from '../../assets/docs/connecting_sma/editingFTP.jpg';
 import FTPPage from '../../assets/docs/connecting_sma/FTPPage.jpg';
 import location from '../../assets/docs/connecting_sma/location.jpg';
 import CopyButton from '../common/CopyButton';
+import AccessKeyStep from './AccessKeyStep';
 import Step from './Step';
 
 export default function ConnectingSMADevices() {
@@ -14,18 +15,7 @@ export default function ConnectingSMADevices() {
       </div>
       <div>
         <Step
-          content={
-            <div>
-              Follow the&nbsp;
-              <Link
-                className='text-brand-primary underline'
-                to='/docs/gettingStarted'
-              >
-                Getting Started
-              </Link>
-              &nbsp;instructions to retrieve your access key
-            </div>
-          }
+          content={<AccessKeyStep />}
           number={1}
           title='Collect access key'
         />
@@ -58,31 +48,21 @@ export default function ConnectingSMADevices() {
               <ul className='ms-6 list-disc'>
                 <li>
                   <div>
+                    Data export in CSV format should be set to&nbsp;
+                    <span className='font-bold text-brand-primary'>No</span>
+                  </div>
+                </li>
+                <li>
+                  <div>
                     Data export in XML format should be set to&nbsp;
                     <span className='font-bold text-brand-primary'>Yes</span>
                   </div>
                 </li>
                 <li>
                   <div className='flex items-center'>
-                    Login field should be updated with&nbsp;
-                    <span className='me-2 font-bold text-brand-primary'>
-                      awsftpuser
-                    </span>
-                    <span>
-                      <CopyButton
-                        dataSrc={() => 'awsftpuser'}
-                        title='Copy username'
-                      />
-                    </span>
+                    Login & password fields should be updated with your access
+                    key retrieved in step 1
                   </div>
-                </li>
-                <li>
-                  Password should be updated with your access key retrieved in
-                  step 3
-                </li>
-                <li>
-                  Server Path should also be updated with your access key
-                  retrieved in step 3
                 </li>
                 <li>
                   <div className='flex items-center'>

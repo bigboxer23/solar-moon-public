@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 import uploadChannel from '../../assets/upload-channel.jpg';
 import CopyButton from '../common/CopyButton';
+import AccessKeyStep from './AccessKeyStep';
 import Step from './Step';
 
 export default function ConnectingDevice() {
@@ -12,18 +13,7 @@ export default function ConnectingDevice() {
       </div>
       <div>
         <Step
-          content={
-            <div>
-              Follow the&nbsp;
-              <Link
-                className='text-brand-primary underline'
-                to='/docs/gettingStarted'
-              >
-                Getting Started
-              </Link>
-              &nbsp;instructions to retrieve your access key
-            </div>
-          }
+          content={<AccessKeyStep />}
           number={1}
           title='Collect access key'
         />
