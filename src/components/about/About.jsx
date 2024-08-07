@@ -1,13 +1,11 @@
 import React from 'react';
 
-import Github from './Github';
-
 export default function About() {
   return (
     <main className='about flex flex-col items-center bg-brand-primary-light dark:bg-gray-950'>
       <div className='fade-in mx-2 my-8 max-w-[55rem] bg-white p-6 shadow-panel sm:mx-5 sm:rounded-lg sm:p-8 dark:bg-gray-800 dark:text-gray-100'>
         <div className='mb-8 flex justify-center text-4xl font-bold'>
-          About {' '}
+          About 
           <span className='text-brand-primary'> Solar Moon Analytics</span>
         </div>
         <p>
@@ -67,7 +65,8 @@ export default function About() {
           individuals and organizations investing in solar energy devices. We
           achieve this through data-driven insights and AI-driven optimizations.
         </p>
-        <Github className='p-8' />
+        <br />
+        <br />
       </div>
     </main>
   );
