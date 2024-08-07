@@ -18,6 +18,8 @@ jobs:
           node-version: 18
       - name: Install dependencies
         run: npm install --legacy-peer-deps
+      - name: Yarn dependencies
+        run: yarn install
       - name: Build
         run: npm run build
       - name: Configure AWS Credentials
