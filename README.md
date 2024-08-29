@@ -7,4 +7,16 @@ directly to an S3 bucket and served from there or via cloudfront.
 
 ### Building
 
-Scripts to build, deploy and rollback exist, see [solar-moon-server-config/website](https://github.com/bigboxer23/solar-moon-server-config/tree/main/scripts/website)
+#### GitHub Action
+
+- See `workflows/deploy.yml`. This action is integrated into the `master` branch such that any changes pushed trigger a
+  rebuild and deploy of the project to the defined (in github secrets) s3 bucket.
+- There are four necessary parameters to define in GitHub secrets:
+  - `AWS_ACCESS_KEY_ID`
+  - `AWS_SECRET_ACCESS_KEY`
+  - `S3_BUCKET_REGION`
+  - `S3_BUCKET`
+
+#### Manually
+
+- Scripts to build, deploy and rollback manually exist, see [solar-moon-server-config/website](https://github.com/bigboxer23/solar-moon-server-config/tree/main/scripts/website).
