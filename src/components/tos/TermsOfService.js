@@ -3,7 +3,7 @@ import React from 'react';
 function TermsOfService() {
   return (
     <main className='tos flex flex-col items-center bg-brand-primary-light dark:bg-gray-950'>
-      <div className='fade-in mx-2 my-8 max-w-[55rem] bg-white p-6 shadow-panel sm:mx-5 sm:rounded-lg sm:p-8'>
+      <div className='fade-in mx-2 my-8 max-w-[55rem] bg-white p-6 shadow-panel sm:mx-5 sm:rounded-lg sm:p-8 dark:bg-gray-800 dark:text-gray-100'>
         <div className='mb-8 flex flex-col items-center'>
           <div className='text-4xl font-bold'>Terms of Service</div>
           <div className='text-sm text-neutral-500'>
