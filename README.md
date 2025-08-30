@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/bigboxer23/solar-moon-public/branch/master/graph/badge.svg)](https://codecov.io/gh/bigboxer23/solar-moon-public)
+
 # solar-moon-public
 
 This is the project for the public facing website for solar moon analytics.
