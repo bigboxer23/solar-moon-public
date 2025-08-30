@@ -1,6 +1,7 @@
 {
   "name": "solar-moon-public",
   "version": "0.9.0",
+  "type": "module",
   "private": true,
   "dependencies": {
     "@szhsin/react-menu": "^4.2.2",

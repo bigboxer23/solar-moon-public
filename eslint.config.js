@@ -89,7 +89,14 @@ export default [
     },
   },
   {
-    ignores: ['**/aws-exports.js', 'build/**', 'node_modules/**'],
+    ignores: [
+      '**/aws-exports.js',
+      'build/**',
+      'node_modules/**',
+      'coverage/**',
+      '*.config.js',
+      'public/**',
+    ],
   },
   prettierConfig,
 ];
