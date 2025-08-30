@@ -8,7 +8,7 @@ jest.mock('typewriter-effect', () => {
     return (
       <div data-testid='typewriter'>
         {options.strings.map((string, index) => (
-          <span key={index} data-testid='typewriter-string'>
+          <span data-testid='typewriter-string' key={index}>
             {string}
           </span>
         ))}
