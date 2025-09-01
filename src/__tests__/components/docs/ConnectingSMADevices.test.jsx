@@ -5,7 +5,7 @@ import ConnectingSMADevices from '../../../components/docs/ConnectingSMADevices'
 // Mock react-router-dom
 jest.mock('react-router-dom', () => ({
   Link: ({ children, to, className }) => (
-    <a href={to} className={className}>
+    <a className={className} href={to}>
       {children}
     </a>
   ),
@@ -15,7 +15,7 @@ jest.mock('react-router-dom', () => ({
 jest.mock('../../../components/common/CopyButton', () => {
   return function MockCopyButton({ dataSrc, title }) {
     return (
-      <button data-testid='copy-button' data-datasrc={dataSrc()} title={title}>
+      <button data-datasrc={dataSrc()} data-testid='copy-button' title={title}>
         Copy
       </button>
     );

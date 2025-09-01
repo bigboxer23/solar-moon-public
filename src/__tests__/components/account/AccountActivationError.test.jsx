@@ -10,8 +10,8 @@ jest.mock('../../../components/common/Button', () => {
     return (
       <button
         className={className}
-        data-variant={variant}
         data-type={type}
+        data-variant={variant}
         onClick={onClick}
       >
         {children}
