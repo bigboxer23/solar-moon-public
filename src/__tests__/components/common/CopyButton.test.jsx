@@ -1,4 +1,10 @@
-import { fireEvent, render, screen, waitFor } from '@testing-library/react';
+import {
+  act,
+  fireEvent,
+  render,
+  screen,
+  waitFor,
+} from '@testing-library/react';
 
 import CopyButton from '../../../components/common/CopyButton';
 
@@ -53,7 +59,9 @@ describe('CopyButton Component', () => {
     fireEvent.click(button);
 
     // Fast-forward time by 1500ms and run all timers
-    jest.runAllTimers();
+    act(() => {
+      jest.runAllTimers();
+    });
 
     await waitFor(() => {
       const copyIcon = button.querySelector('svg:not([color="green"])');
